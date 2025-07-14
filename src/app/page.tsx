@@ -1,10 +1,11 @@
-import SearchBar from './components/searchbar';
+import SearchBar from './components/Searchbar';
+import Header from './components/Header';
 
 export default function Home() {
     return (
         <main>
-        <h1 className='font-heading'>Welcome to the Poke App</h1>
-        <SearchBar />
+            <Header />
+            <SearchBar />
         </main>
     );
 }
